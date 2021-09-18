@@ -1,0 +1,4 @@
+## create vagrant file
+## https://app.vagrantup.com/ubuntu/boxes/bionic64
+
+vagrant init ubuntu/bionic64
