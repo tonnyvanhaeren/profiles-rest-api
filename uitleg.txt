@@ -2,3 +2,54 @@
 ## https://app.vagrantup.com/ubuntu/boxes/bionic64
 
 vagrant init ubuntu/bionic64
+
+## starting vagrant
+vagrant up
+
+## connecting to cmd prompt
+vagrant ssh
+
+## stopping vagrant (virtualbox server)
+vagrant halt
+
+
+
+vagrant ssh
+cd /varant/
+python -m venv ~/env
+
+
+source ~/env/bin/activate
+
+deactivate
+
+create requirements.txt file
+  django==2.2
+  djangorestframework==3.9.2
+
+pip install -r requirements.txt
+
+django-admin.py startproject profiles_project .
+python manage.py startapp profiles_api
+
+
+############
+
+settings
+
+INSTALLED_APPS = [
+]
+
+add ...
+
+'rest_framework',
+'rest_framework.authtoken',
+'profiles_api',
+
+
+ALLOWED_HOSTS = ['0.0.0.0']
+
+
+# run development runserver
+
+python manage.py runserver 0.0.0.0:8000
