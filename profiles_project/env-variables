@@ -1,0 +1,4 @@
+## use .env file
+
+DEBUG=True
+SECRET_KEY=

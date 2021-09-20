@@ -1,0 +1,6 @@
+## create .env file
+
+## variables
+
+DEBUG=
+SECRET_KEY=
