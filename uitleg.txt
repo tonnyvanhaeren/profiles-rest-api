@@ -63,3 +63,10 @@ python manage.py makemigrations profiles_api
 
 # execute migration
 python manage.py migrate
+
+# create superuser
+
+python manage.py createsuperuser
+
+email : antonius.vanhaeren.av@gmail.com
+password : xxxxxxxx
