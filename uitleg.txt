@@ -53,3 +53,13 @@ ALLOWED_HOSTS = ['0.0.0.0']
 # run development runserver
 
 python manage.py runserver 0.0.0.0:8000
+
+# set UserProfile class as user model
+AUTH_USER_MODEL = 'profiles_api.UserProfile'
+
+
+# make migration
+python manage.py makemigrations profiles_api
+
+# execute migration
+python manage.py migrate
