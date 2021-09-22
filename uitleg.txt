@@ -16,7 +16,7 @@ vagrant halt
 
 vagrant ssh
 cd /varant/
-python -m venv ~/env
+
 
 
 source ~/env/bin/activate
